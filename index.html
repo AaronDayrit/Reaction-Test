@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+
+<html>
+
+<head>
+    <title>Reaction Test</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=yes">
+
+    <link rel="stylesheet" href="assets/style/base.css" media="all">
+
+    <link rel="stylesheet" href="assets/style/start-screen.css" media="all">
+    <link rel="stylesheet" href="assets/style/wait-screen.css" media="all">
+    <link rel="stylesheet" href="assets/style/click-screen.css" media="all">
+    <link rel="stylesheet" href="assets/style/result-screen.css" media="all">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/img/bolt(1).png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <script src="assets/js/main.js" defer></script>
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+    <main>
+
+        <div class="start-screen" id="start-screen">
+            <div class="container">
+
+                <div class="icon-holder">
+                    <i class="fa-solid fa-bolt-lightning"></i>
+                </div>
+                <h2>Reaction Test</h2>
+                <h3>When the red screen turns green, click as quickly as you can!</h3>
+
+                <p class="btn" id="start">Start</p>
+
+            </div>
+        </div>
+
+        <div class="waiting-screen off " id="waiting-screen">
+
+            <div class="text-container">
+                <h2>Wait for green</h2>
+            </div>
+
+            <div class="dot-container">
+                <div class="dot-flashing"></div>
+            </div>
+
+        </div>
+
+
+
+        <div class="click-screen off" id="click-screen">
+            <h2>CLICK</h2>
+            <div class="overlay" id="click-overlay"></div>
+        </div>
+
+
+
+        <div class="continue-screen off" id="continue-screen">
+            <div class="container">
+                <div class="icon-holder">
+                    <i class="fa-solid fa-clock"></i>
+                </div>
+                <h2 class="time" id="time">420 ms</h2>
+                <p class="btn" id="retry">Retry</p>
+            </div>
+        </div>
+
+
+    </main>
+</body>
+
+</html>

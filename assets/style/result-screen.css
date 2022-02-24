@@ -1,0 +1,130 @@
+
+@import "base.css";
+
+/*--------------------------------------
+    Continue screen
+--------------------------------------*/
+
+
+.continue-screen{
+    height: 100vh;
+    width: 100%;
+    background: rgb(160,219,242);
+    background: linear-gradient(170deg, rgba(160,219,242,1) 17%, rgba(112,161,180,1) 93%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.continue-screen i{
+    font-size: 110px;
+    color: white;
+}
+
+.continue-screen .icon-holder{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: -20px;
+
+    opacity: 0;
+-webkit-animation: fadeIn 0.7s forwards;
+-moz-animation: fade-in 0.7s forwards;
+animation: fadeIn 0.7s forwards;
+
+-webkit-animation-delay: 0.8s;
+-moz-animation-delay: 0.8s;
+animation-delay: 0.8s;
+}
+
+.continue-screen h2{
+    font-size: 72px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: -20px;
+
+
+opacity: 0;
+-webkit-animation: fadeIn 0.7s forwards;
+-moz-animation: fade-in 0.7s forwards;
+animation: fadeIn 0.7s forwards;
+
+-webkit-animation-delay: 0.8s;
+-moz-animation-delay: 0.8s;
+animation-delay: 0.8s;
+}
+
+.continue-screen .btn{
+opacity: 0;
+-webkit-animation: fadeIn 0.7s forwards;
+-moz-animation: fade-in 0.7s forwards;
+animation: fadeIn 0.7s forwards;
+
+-webkit-animation-delay: 2s;
+-moz-animation-delay: 2s;
+animation-delay: 2s;
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+    
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+
+/*--------------------------------------
+    display
+--------------------------------------*/
+
+.off{
+    display: none;
+    opacity: 0;
+} 
+
+/*
+        --------------------------------------------------------
+        Media Queries
+        --------------------------------------------------------
+        */
+
+
+        @media screen and (min-width: 320px) {
+            .click-screen h2{
+                font-size: 160px;
+            }
+        }
+    
+        @media screen and (min-width: 580px) {
+            .click-screen h2{
+                font-size: 190px;
+            }
+        }
+    
+        @media screen and (min-width: 768px) and (max-width: 1024px) {
+            .click-screen h2{
+                font-size: 256px;
+            }
+        }
+    
+        @media screen and (min-width: 1024px) {
+            .click-screen h2{
+                font-size: 302px;
+            }
+        }
