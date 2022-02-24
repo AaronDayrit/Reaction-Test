@@ -30,13 +30,13 @@
     margin-top: -20px;
 
     opacity: 0;
--webkit-animation: fadeIn 0.7s forwards;
--moz-animation: fade-in 0.7s forwards;
-animation: fadeIn 0.7s forwards;
+    -webkit-animation: fadeIn 0.7s forwards;
+    -moz-animation: fade-in 0.7s forwards;
+    animation: fadeIn 0.7s forwards;
 
--webkit-animation-delay: 0.8s;
--moz-animation-delay: 0.8s;
-animation-delay: 0.8s;
+    -webkit-animation-delay: 0.8s;
+    -moz-animation-delay: 0.8s;
+    animation-delay: 0.8s;
 }
 
 .continue-screen h2{
@@ -46,27 +46,45 @@ animation-delay: 0.8s;
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
     margin-bottom: -20px;
+    margin-top: -15px;
 
+    opacity: 0;
+    -webkit-animation: fadeIn 0.7s forwards;
+    -moz-animation: fade-in 0.7s forwards;
+    animation: fadeIn 0.7s forwards;
 
-opacity: 0;
--webkit-animation: fadeIn 0.7s forwards;
--moz-animation: fade-in 0.7s forwards;
-animation: fadeIn 0.7s forwards;
+    -webkit-animation-delay: 0.8s;
+    -moz-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+}
 
--webkit-animation-delay: 0.8s;
--moz-animation-delay: 0.8s;
-animation-delay: 0.8s;
+.pb{
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 19px;
+    text-align: center;
+    margin-top: 27px;
+
+    opacity: 0;
+    -webkit-animation: fadeIn 0.7s forwards;
+    -moz-animation: fade-in 0.7s forwards;
+    animation: fadeIn 0.7s forwards;
+
+    -webkit-animation-delay: 1.4s;
+    -moz-animation-delay: 1.4s;
+    animation-delay: 1.4s;
 }
 
 .continue-screen .btn{
-opacity: 0;
--webkit-animation: fadeIn 0.7s forwards;
--moz-animation: fade-in 0.7s forwards;
-animation: fadeIn 0.7s forwards;
+    margin-top: 27px;
+    opacity: 0;
+    -webkit-animation: fadeIn 0.7s forwards;
+    -moz-animation: fade-in 0.7s forwards;
+    animation: fadeIn 0.7s forwards;
 
--webkit-animation-delay: 2s;
--moz-animation-delay: 2s;
-animation-delay: 2s;
+    -webkit-animation-delay: 2.1s;
+    -moz-animation-delay: 2.1s;
+    animation-delay: 2.1s;
 }
 
 @-webkit-keyframes fadeIn {
