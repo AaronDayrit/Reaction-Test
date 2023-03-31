@@ -10,5 +10,5 @@
 </p>
 
 <p>
-	The game would have likely involved simple mechanics, such as having the player click on a moving object as quickly as possible. This would have required precise timing functionality to accurately calculate the player's reaction time.
+	The game game included simple mechanics, such as having the player click on a moving object as quickly as possible. This would have required precise timing functionality to accurately calculate the player's reaction time.
 </p>
